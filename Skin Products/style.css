@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+:root{
+    --prim-color:#f8e3b5;
+    --prime:#cde9ff;
+}
+body{
+    background: linear-gradient(300deg,#cde9ff,#f8e3b5,#cde9ff);
+}
+nav {
+    width: 100%;
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+ul.navList {
+    list-style: none;
+    display: flex;
+    position: absolute;
+    left: 35%;
+    top: 15px;
+}
+
+li {
+    margin: 15px 35px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 26px;
+    text-transform: capitalize;
+    color: black;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+
+i.fa-magnifying-glass {
+    font-size: 50px;
+    position: relative;
+    right: -10px;
+    top: 10px;
+    cursor: pointer;
+}
+
+.logo {
+    position: absolute;
+    left: 40px;
+}
+
+h1.logoTitle {
+    font-size: 40px;
+    font-family:'Quantico', sans-serif;
+}
+.icon {
+    position: relative;
+    top: 15px;
+    left: 35%;
+    background: #f8e3b5;
+    width: 70px;
+    height: 70px;
+    border-radius: 30%;
+}
+.home {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.left {
+    position: relative;
+    width: 24%;
+    height: 100%;
+}
+
+h1.skin {
+    font-size: 45px;
+    text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+p {
+    font-size: 20px;
+}
+
+button.btn {
+    width: 200px;
+    height: 65px;
+    position: relative;
+    top: 60px;
+    border-radius: 40px;
+    outline: none;
+    border: none;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    background: #0d0f29;
+    color: white;
+}
+.right {
+    position: relative;
+    width: 40%;
+    top: 70px;
+}
